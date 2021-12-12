@@ -1,5 +1,6 @@
-
 import './App.css';
+import db from './utils/firebase';
+
 
 function App() {
   return (
