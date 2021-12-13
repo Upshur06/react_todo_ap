@@ -4,8 +4,10 @@ import db from './utils/firebase';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className='App'>
+      <div className='taskListContainer'>
+        <h1>TODO</h1>
+      </div>
     </div>
   );
 }

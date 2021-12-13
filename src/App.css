@@ -1,0 +1,36 @@
+.App{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #1D1E28;
+  background-image: url('./images/bg-desktop-dark.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.taskListContainer{
+  width: 100%;
+  max-width: calc(100%/3);
+  margin-top: 100px;
+}
+
+.taskListContainer h1{
+  color: white;
+  letter-spacing: .8em;
+  font-size: 45px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .taskListContainer{
+    width: 100%;
+    margin: 20px;
+  }
+
+  .taskListContainer h1{
+    color: white;
+    letter-spacing: .5em;
+    font-size: 35px;
+  }
+}
