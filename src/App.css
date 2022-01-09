@@ -21,6 +21,24 @@
   font-size: 45px;
 }
 
+.taskInput{
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-color: #282B3D;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.taskInput input{
+  width: 100%;
+  font-size: 28px;
+  padding: 20px;
+  background: none;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.65) ;
+}
 
 @media screen and (max-width: 400px) {
   .taskListContainer{
